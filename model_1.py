@@ -21,9 +21,9 @@ def mm1_queue_metrics_1(lambda_rate, mu_rate):
     # Return results as a dictionary
     return {
         'Utilization (ρ)': rho,
-        'Average number of customers in the system (L)': L,
+        'Average customers in the system (L)': L,
         'Average time in the system (W)': W,
-        'Average number of customers in the queue (Lq)': Lq,
+        'Average customers in the queue (Lq)': Lq,
         'Average time in the queue (Wq)': Wq
     }
 

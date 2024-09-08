@@ -28,8 +28,8 @@ def mms_queue_metrics_3(lambda_rate, mu_rate, s):
     return {
         'Utilization (ρ)': rho,
         'Probability system is empty (P0)': P0,
-        'Average number of customers in the queue (Lq)': Lq,
-        'Average number of customers in the system (L)': L,
+        'Average customers in the queue (Lq)': Lq,
+        'Average customers in the system (L)': L,
         'Average time in the queue (Wq)': Wq,
         'Average time in the system (W)': W
     }

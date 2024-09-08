@@ -33,9 +33,9 @@ def mm1_n_queue_metrics_2(lambda_rate, mu_rate, n):
         'Utilization (ρ)': rho,
         'Probability system is empty (P0)': P0,
         'Blocking probability (Pn)': Pn,
-        'Average number of customers in the system (L)': L,
+        'Average customers in the system (L)': L,
         'Average time in the system (W)': W,
-        'Average number of customers in the queue (Lq)': Lq,
+        'Average customers in the queue (Lq)': Lq,
         'Average time in the queue (Wq)': Wq
     }
 
